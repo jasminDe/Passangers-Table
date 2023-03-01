@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+
+	<!-- 	Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+	<!-- 	Our Styles -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="variable.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1> Amazing Grace Mobile Transport</h1>
+
+	<h2>Add Passangers</h2>
+
+	<button type="button" onclick="addRow()">Add</button>
+
+
+	<table id="myTable" class="tableVal">
+		<thead>
+			<tr class="col double nick ">
+				<th>Name</th>
+				<th>Medicaid ID</th>
+				<th>Address</th>
+				<th>Phone Number</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+
+		<tbody></tbody>
+	</table>
+
+	<script src="table/constants.js" defer></script>
+	<script src="utils/helpers/index.js" defer></script>
+	<script src="utils/services.js" defer></script>
+	<script src="table/components.js" defer></script>
+	<script src="utils/helpers/phone.js" defer></script>
+	<script src="table/actions.js" defer></script>
+	<script src="table/index.js" defer></script>
+</body>
+
+</html>
