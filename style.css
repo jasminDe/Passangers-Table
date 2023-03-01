@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.popup{
+	  position: absolute;
+    background: white;
+    max-width: 180px;
+	 	padding: 10px;
+	  border-radius: 5px;
+    box-shadow: 10px 10px 10px -7px rgb(54 54 54 / 75%);
+    -webkit-box-shadow: 10px 10px 10px -7px rgb(54 54 54 / 29%);
+    -moz-box-shadow: 10px 10px 10px -7px rgba(54,54,54,0.75);
+}
+
+
+
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th{
+  background-color: #8e4848;
+  color: #fff;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px solid rgb(800, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+	width: 773px;
+}
+
+
+[type=button], deleteBTN {
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+[type=button]{
+	color: black;
+}
+
+[type=button]:hover:disabled{
+	background-color: #ebebeb;
+	color: white;
+}
+
+[type=button]:hover{
+	background-color: rgb(227, 227, 227) /*var(buttonface)*/;
+/* 	color: white; */
+}
+
+.deleteBTN{
+	background-color: var(--warning-1-color, red);
+  color: white;
+  border: 1px solid #f3f3f3;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.deleteBTN:hover{
+  background-color: var(--warning-1-hoverColor);
+}
+
+.spinner{
+	display: inline-block;
+	 border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #5762ff;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/* pop up message over delete (are you sure you want to delete)
+add a copy button */

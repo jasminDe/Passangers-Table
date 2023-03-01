@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Harry Hill",
+    "medicaidID": "Private",
+    "address": "1 Saddale place Newburgh New York",
+    "phone": "555-555-3382"
+  },
+  {
+    "name": "James Costigan",
+    "medicaidID": "FG458698D",
+    "address": "1222 NY-376 Wappingers Falls, NY 12590",
+    "phone": "555-555-9962"
+  },
+  {
+    "name": "Marry Martins",
+    "medicaidID": "SR546884P",
+    "address": "41 Page Park Dr, Arlington, NY 12603",
+    "phone": "555-555-2428"
+  },
+  {
+    "name": "Lauren Lovelace",
+    "medicaidID": "LE546494C",
+    "address": "53 Hillside Dr, Marlboro, NY 12542",
+    "phone": "555-555-3332"
+  }
+]
