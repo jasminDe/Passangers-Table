@@ -61,8 +61,42 @@ EmptyTableMessage(Spinner)
 
 initTableData()
 
+const dataSource = [
+	{
+		name: "Jazz",
+		greeting: "This is how you say Hello",
+		phone: "555-555-5555",
+	},
+	{
+		name: "Danny Boy",
+		greeting: "Evening and the Morning",
+		phone: "555-777-8845",
+	},
+	{
+		name: "Kurt Thomas",
+		greeting: "What a wonderful world",
+		phone: "555-878-3352",
+	},
+]
 
+const columns = [
+	{
+		title: "Name",
+		dataIndex: "name"
+	},
+	{
+		title: "Hello",
+		dataIndex: "greeting"
+	},
+	{
+		title: "Phone Number",
+		dataIndex: "phone"
+	}
+]
 
+// const tableInfo = new Table({ columns, dataSource, onCellEdit:(e) => console.log(e, "MY EDIT") })
+// console.log(tableInfo.findCell("Phone Number",0))
+// console.log(tableInfo.setCell("Phone Number",1,"845-5595-5555"))
 
 
 
